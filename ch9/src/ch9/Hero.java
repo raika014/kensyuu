@@ -1,19 +1,11 @@
 package ch9;
 
 public class Hero {
-	String name;
+    String name;
     int hp;
 
-    public void sit(int sec) {
-        System.out.println(name + "は" + sec + "秒座った！");
+    public Hero(String name) {
+        this.name = name;
+        this.hp = 100;
     }
-
-    public void slip() {
-        System.out.println(name + "は転んだ！");
-    }
-
-    public void run() {
-        System.out.println(name + "は逃げた！");
-    }
-
 }
