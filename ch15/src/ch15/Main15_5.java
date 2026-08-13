@@ -9,7 +9,7 @@ public class Main15_5 {
 		if(!(first>='A'&& first <='Z')) {
 			return false;
 		}
-		for (int i =i; i<8; i++) {
+		for (int i =1; i<8; i++) {
 			char c=name.charAt(i);
 			if(!((c>='A' && c<='Z')||(c>='0' && c <='9'))) {
 				return false;
